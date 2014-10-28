@@ -209,12 +209,12 @@ CONTENT
 }
 
 .user-icon {
-	top:153px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
+	top:236px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
 	background: rgba(65,72,72,0.75) url(images/user-icon.png) no-repeat center;	
 }
 
 .pass-icon {
-	top:201px;
+	top:284px;
 	background: rgba(65,72,72,0.75) url(images/pass-icon.png) no-repeat center;
 }
 
@@ -236,7 +236,7 @@ FOOTER
 *******************/
 
 .login-form .footer {
-	padding: 25px 30px 40px 30px;
+	padding: 25px 30px 30px 30px;
 	overflow: auto;
 	
 	background: #d4dedf;
@@ -249,7 +249,8 @@ FOOTER
 
 /* Login button */
 .login-form .footer .button {
-	float:right;
+
+
 	padding: 11px 25px;
 	
 	font-family: 'Bree Serif', serif;
@@ -258,8 +259,8 @@ FOOTER
 	color: #fff;
 	text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
 	
-	background: #56c2e1;
-	border: 1px solid #46b3d3;
+	background: #042d7e;
+	border: 1px solid #042d7e;
 	border-radius: 5px;
 	cursor: pointer;
 	
@@ -269,7 +270,7 @@ FOOTER
 }
 
 .login-form .footer .button:hover {
-	background: #3f9db8;
+	background: #053891;
 	border: 1px solid rgba(256,256,256,0.75);
 	
 	box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
