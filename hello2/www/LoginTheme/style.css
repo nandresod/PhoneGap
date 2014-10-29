@@ -35,10 +35,9 @@ body {
 
 #wrapper {
 	/* Center wrapper perfectly */
-	width: 95%;
-	max-width: 480px;
+	width: 300px;
 	height: 400px;
-	margin: 80px auto;
+	margin: 8% auto;
 }
 
 /* Download Button (Demo Only) */
@@ -109,7 +108,7 @@ LOGIN FORM
 *******************/
 
 .login-form {
-	width: 100%;
+	width: 300px;
 	margin: 0 auto;
 	position: relative;
 	
@@ -240,9 +239,12 @@ FOOTER
 	padding: 25px 30px 30px 30px;
 	overflow: auto;
 	
+	background: #d4dedf;
+	border-top: 1px solid #fff;
 	
-
-
+	box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+	-moz-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+	-webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
 }
 
 /* Login button */
@@ -253,7 +255,7 @@ FOOTER
 	
 	font-family: 'Bree Serif', serif;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 15px;
 	color: #fff;
 	text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
 	
@@ -313,43 +315,3 @@ FOOTER
 	position: relative;
 	bottom: -1px;
 }
-
-
-
-
-
-
-    #menu_icon,
-    .close_menu{
-        display: none;
-    }
-
-
-
-#menu_icon,
-.close_menu{
-    float: right;
-    margin-right: 40px;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    background: url('../img/men_icons.png') no-repeat;
-}
-
-#menu_icon{    
-    background-position: 0 0;
-}
-.close_menu{
-    background-position: -41px 0!important;
-}
-
-   article,aside,details,figcaption,figure,
-    footer,header,hgroup,menu,nav,section { 
-        display:block;
-		     margin:0;
-        padding:0;
-        border:0;
-        outline:0;
-        font-size:100%;
-        vertical-align:baseline;
-        background:transparent;
