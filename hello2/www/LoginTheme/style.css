@@ -37,7 +37,7 @@ body {
 	/* Center wrapper perfectly */
 	width: 300px;
 	height: 400px;
-	margin: 80px auto;
+	margin: 5px auto;
 }
 
 /* Download Button (Demo Only) */
@@ -140,7 +140,7 @@ HEADER
 }
 
 .login-form .header span {
-	font-size: 11px;
+	font-size: 12px;
 	line-height: 16px;
 	color: #678889;
 	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);

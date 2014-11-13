@@ -3,6 +3,8 @@
 <html lang='en'>
 <head>
     <meta charset="UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
     <title>
         HTML Document Structure
     </title>
@@ -11,7 +13,9 @@
 	<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
        <script type="text/javascript" src="main.js"></script>
               <script type="text/javascript" src="jquery.js"></script>
-              
+  <link rel="stylesheet" type="text/css" href="css/devices/1000.css" media="only screen and (min-width: 768px) and (max-width: 1000px)" />
+<link rel="stylesheet" type="text/css" href="css/devices/767.css" media="only screen and (min-width: 480px) and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="css/devices/479.css" media="only screen and (min-width: 200px) and (max-width: 479px)" />            
               
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
@@ -19,11 +23,8 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <style type="text/css">
 	.bs-example{
-
 	
-		
 z-index: 1500;
-
 		margin: 0px auto;	
 	
     }
@@ -48,17 +49,17 @@ z-index: 1500;
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Serhs</a>
+                <a class="navbar-brand" href="#"><img style="margin-top:-10px" src="images/Logo SERHS 2011 petit.jpg" width="97" height="43" alt=""/></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Preferències</a></li>
-                    <li><a href="#">Serhs Club</a></li>
+                    <li><a href="#">SERHS Club</a></li>
                     <li><a href="#">Espai Idees</a></li>
-                    <li><a href="#">Serhs Travel Service</a></li>
-                     <li><a href="#">Grup Serhs</a></li>
-                     <li><a href="#">Portal Web</a></li>
+                    <li><a href="#">SERHS Travel Service</a></li>
+                    <li><a href="#">Tempo SERHS</a></li>
+                     <li><a href="#">Notícies</a></li>
+                     <li><a href="#">Portal SERHS</a></li>
                           
                     
                 </ul>
@@ -73,14 +74,17 @@ z-index: 1500;
 
 <body>
 
+
 <div id="wrapper">
 
 	<form name="login-form" class="login-form" action="" method="post">
 	
 		<div class="header">
-        
+     
+     <img style="float:right" src="images/gear.png" width="26" height="26" alt=""/><br>     
 <center>		
-        <h1>Actualitat</h1>
+        <h1>Notícies</h1>
+  </center>      
 		</div>
 	
  <!--Noticia 1-->          
@@ -101,50 +105,20 @@ z-index: 1500;
 											</tr>
 											<tr>
 												<td>
-													<!-- img -->
-                                      
-		<table width="100">
-													<table class="table3-1" width="50%" border="0" align="left" cellpadding="0" cellspacing="0">
-														<tbody>
-															<tr>
-																<td style="border:3px solid #ffffff; background-size:cover; background-image:url(../../../../BlogEudecFood.jpg); background-attachment:scroll; background-repeat: no-repeat; background-size: cover; -moz-background-size: cover; background-position:center;">
-																	<img style="display:block; line-height:0px; font-size:0px; border:0px;" class="img1" alt="img" width="124px" height="46px"/> </td>
-                                                                    <td>&nbsp;
-                                                           
-                                                                    </td>     	
-															</tr>
-                                                    
-                                                  <tr>
-                                                  <td>
-                                                  <p style="text-align:center; margin-top:5px; font-size:11px">30/10/2014</p>
-                                                  </td>
-                                                  </tr>  
-                                                            
-														</tbody>
-													</table>
-                                         
-                                                <table class="table3-1" width="50%" border="0" cellpadding="0" cellspacing="0">
-														<tbody>
-															<tr valign="top">
-																
-                                                         <td>&nbsp;
-                                                         
-                                                         </td>       
-                                                                
-                                                      <td style="font-family: 'Open Sans', Arial, sans-serif; font-size:11px; color:#3b3b3b">
-															<strong>D’EudecFood se’n parlarà molt, gràcies al seu nou Blog</strong>
-																</td> 
-                                                              
-															</tr>
-               <tr>
-												<td height="10">
-												</td>
-											</tr>    
-                                                            
-														</tbody>
-													</table>
-                                        
-		</table>											<!-- end img -->
+	<!-- inici img -->	<div class="media">
+        <div class="pull-right">
+        <div style="border:3px solid #ffffff; background-size:cover; background-image:url(images/BlogEudecFood.jpg); background-attachment:scroll; background-repeat: no-repeat; background-size: cover; -moz-background-size: cover; background-position:center; margin-bottom:20px">
+																	<img style="display:block; line-height:0px; font-size:0px; border:0px;" alt="img" width="100px" height="75px" /> </div>
+                                                               
+        </div>
+     
+        <div class="media-body" "col-md-8">
+            
+            <p id="titul" style="font-size:12px; font-weight:bold">D’EudecFood se’n parlarà molt, gràcies al seu nou Blog</p>
+            <p id="data"> <em style="font-size:10px; color:#989898">30/10/2014</em>  </p>
+            
+        </div>
+    </div>				<!-- end img -->
 			
 												</td>
 											</tr>
@@ -162,7 +136,7 @@ z-index: 1500;
     
   <!--Noticia 1-->
   
- <!--Noticia 2-->          
+  <!--Noticia 2-->          
 <table bgcolor="#ffffff" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" data-module="side column" class="currentTable">
 		<tbody>
 			
@@ -180,50 +154,20 @@ z-index: 1500;
 											</tr>
 											<tr>
 												<td>
-													<!-- img -->
-                                      
-		<table width="100">
-													<table class="table3-1" width="50%" border="0" align="left" cellpadding="0" cellspacing="0">
-														<tbody>
-															<tr>
-																<td style="border:3px solid #ffffff; background-size:cover; background-image:url(../../../../Julian.jpg); background-attachment:scroll; background-repeat: no-repeat; background-size: cover; -moz-background-size: cover; background-position:center;">
-																	<img style="display:block; line-height:0px; font-size:0px; border:0px;" class="img1" alt="img" width="124px" height="46px"/> </td>
-                                                                    <td>&nbsp;
-                                                           
-                                                                    </td>     	
-															</tr>
-                                                    
-                                                  <tr>
-                                                  <td>
-                                                  <p style="text-align:center; margin-top:5px; font-size:11px">28/10/2014</p>
-                                                  </td>
-                                                  </tr>  
-                                                            
-														</tbody>
-													</table>
-                                         
-                                                <table class="table3-1" width="50%" border="0" cellpadding="0" cellspacing="0">
-														<tbody>
-															<tr valign="top">
-																
-                                                         <td>&nbsp;
-                                                         
-                                                         </td>       
-                                                                
-                                                      <td style="font-family: 'Open Sans', Arial, sans-serif; font-size:11px; color:#3b3b3b">
-															<strong>Entrevista a Julian Imaz, Fundador de Giuliani's - Shana - Double Agent</strong>
-																</td> 
-                                                              
-															</tr>
-               <tr>
-												<td height="10">
-												</td>
-											</tr>    
-                                                            
-														</tbody>
-													</table>
-                                        
-		</table>											<!-- end img -->
+	<!-- inici img -->	<div class="media">
+        <div class="pull-right">
+        <div style="border:3px solid #ffffff; background-size:cover; background-image:url(images/Julian.jpg); background-attachment:scroll; background-repeat: no-repeat; background-size: cover; -moz-background-size: cover; background-position:center; margin-bottom:20px">
+																	<img style="display:block; line-height:0px; font-size:0px; border:0px;" alt="img" width="100px" height="75px" /> </div>
+                                                               
+        </div>
+     
+        <div class="media-body" "col-md-8">
+            
+            <p id="titul" style="font-size:12px; font-weight:bold">Entrevista a Julian Imaz, Fundador de Giuliani's - Shana - Double Agent</p>
+            <p id="data"> <em style="font-size:10px; color:#989898">28/10/2014</em>  </p>
+            
+        </div>
+    </div>				<!-- end img -->
 			
 												</td>
 											</tr>
@@ -240,8 +184,7 @@ z-index: 1500;
 	</table>
     
   <!--Noticia 2-->
-  
-    <!--Noticia 3-->          
+     <!--Noticia 3-->          
 <table bgcolor="#ffffff" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" data-module="side column" class="currentTable">
 		<tbody>
 			
@@ -259,50 +202,20 @@ z-index: 1500;
 											</tr>
 											<tr>
 												<td>
-													<!-- img -->
-                                      
-		<table width="100">
-													<table class="table3-1" width="50%" border="0" align="left" cellpadding="0" cellspacing="0">
-														<tbody>
-															<tr>
-																<td style="border:3px solid #ffffff; background-size:cover; background-image:url(../../../../seniors.jpg); background-attachment:scroll; background-repeat: no-repeat; background-size: cover; -moz-background-size: cover; background-position:center;">
-																	<img style="display:block; line-height:0px; font-size:0px; border:0px;" class="img1" alt="img" width="124px" height="46px"/> </td>
-                                                                    <td>&nbsp;
-                                                           
-                                                                    </td>     	
-															</tr>
-                                                    
-                                                  <tr>
-                                                  <td>
-                                                  <p style="text-align:center; margin-top:5px; font-size:11px">23/10/2014</p>
-                                                  </td>
-                                                  </tr>  
-                                                            
-														</tbody>
-													</table>
-                                         
-                                                <table class="table3-1" width="50%" border="0" cellpadding="0" cellspacing="0">
-														<tbody>
-															<tr valign="top">
-																
-                                                         <td>&nbsp;
-                                                         
-                                                         </td>       
-                                                                
-                                                      <td style="font-family: 'Open Sans', Arial, sans-serif; font-size:11px; color:#3b3b3b">
-															<strong>SERHS Tourism escollida per SEGITTUR per comercialitzar el programa Europe Senior Tourism</strong>
-																</td> 
-                                                              
-															</tr>
-               <tr>
-												<td height="10">
-												</td>
-											</tr>    
-                                                            
-														</tbody>
-													</table>
-                                        
-		</table>											<!-- end img -->
+	<!-- inici img -->	<div class="media">
+        <div class="pull-right">
+        <div style="border:3px solid #ffffff; background-size:cover; background-image:url(images/seniors.jpg); background-attachment:scroll; background-repeat: no-repeat; background-size: cover; -moz-background-size: cover; background-position:center; margin-bottom:20px">
+																	<img style="display:block; line-height:0px; font-size:0px; border:0px;" alt="img" width="100px" height="75px" /> </div>
+                                                               
+        </div>
+     
+        <div class="media-body" "col-md-8">
+            
+            <p id="titul" style="font-size:12px; font-weight:bold">SERHS Tourism escollida per SEGITTUR per comercialitzar el programa Europe Senior Tourism</p>
+            <p id="data"> <em style="font-size:10px; color:#989898">23/10/2014</em>  </p>
+            
+        </div>
+    </div>				<!-- end img -->
 			
 												</td>
 											</tr>
@@ -338,50 +251,20 @@ z-index: 1500;
 											</tr>
 											<tr>
 												<td>
-													<!-- img -->
-                                      
-		<table width="100">
-													<table class="table3-1" width="50%" border="0" align="left" cellpadding="0" cellspacing="0">
-														<tbody>
-															<tr>
-																<td style="border:3px solid #ffffff; background-size:cover; background-image:url(../../../../EudecFood.jpg); background-attachment:scroll; background-repeat: no-repeat; background-size: cover; -moz-background-size: cover; background-position:center;">
-																	<img style="display:block; line-height:0px; font-size:0px; border:0px;" class="img1" alt="img" width="124px" height="46px"/> </td>
-                                                                    <td>&nbsp;
-                                                           
-                                                                    </td>     	
-															</tr>
-                                                    
-                                                  <tr>
-                                                  <td>
-                                                  <p style="text-align:center; margin-top:5px; font-size:11px">22/10/2014</p>
-                                                  </td>
-                                                  </tr>  
-                                                            
-														</tbody>
-													</table>
-                                         
-                                                <table class="table3-1" width="50%" border="0" cellpadding="0" cellspacing="0">
-														<tbody>
-															<tr valign="top">
-																
-                                                         <td>&nbsp;
-                                                         
-                                                         </td>       
-                                                                
-                                                      <td style="font-family: 'Open Sans', Arial, sans-serif; font-size:11px; color:#3b3b3b">
-															<strong>EudecFood presenta nou producte Room Service al Fòrum Gastronòmic</strong>
-																</td> 
-                                                              
-															</tr>
-               <tr>
-												<td height="10">
-												</td>
-											</tr>    
-                                                            
-														</tbody>
-													</table>
-                                        
-		</table>											<!-- end img -->
+	<!-- inici img -->	<div class="media">
+        <div class="pull-right">
+        <div style="border:3px solid #ffffff; background-size:cover; background-image:url(images/EudecFood.jpg); background-attachment:scroll; background-repeat: no-repeat; background-size: cover; -moz-background-size: cover; background-position:center; margin-bottom:20px">
+																	<img style="display:block; line-height:0px; font-size:0px; border:0px;" alt="img" width="100px" height="75px" /> </div>
+                                                               
+        </div>
+     
+        <div class="media-body" "col-md-8">
+            
+            <p id="titul" style="font-size:12px; font-weight:bold">EudecFood presenta nou producte Room Service al Fòrum Gastronòmic</p>
+            <p id="data"> <em style="font-size:10px; color:#989898">22/10/2014</em>  </p>
+            
+        </div>
+    </div>				<!-- end img -->
 			
 												</td>
 											</tr>
@@ -397,7 +280,7 @@ z-index: 1500;
 		</tbody>
 	</table>
     
-  <!--Noticia 4-->    
+  <!--Noticia 4-->
       
       
 </center>
